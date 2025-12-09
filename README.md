@@ -91,6 +91,12 @@ To run the tests:
 
     pytest tests
 
+### Parsing and validating a document
+
+Use the helper script to parse a BODS JSON file and optionally validate it against the local schema bundle:
+
+    python tools/parse_bods_document.py examples/fermcat.json --validate
+
 ### Managing the translation workflow
 
 Translation consists of generating strings to be translated from the English docs, pushing them to Transifex, fetching translations back from Transifex, and then you can build the docs in the other languages you need. There are [full instructions for the translation workflow](https://openownership.github.io/bods-dev-handbook/translations.html) in the bods-dev-handbook.

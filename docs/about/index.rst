@@ -12,6 +12,7 @@ BODS is an open standard for collecting, sharing and using high-quality, machine
    :maxdepth: 1
 
    governance
+   forensic-ocr-indexing
    credits
    privacy-notice
 
